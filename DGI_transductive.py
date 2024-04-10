@@ -16,12 +16,6 @@ import random
 import numpy as np
 import os 
 
-
-
-# original split seed 0 
-#Average after 10 trials: macro_list=[0.6826347305389222, 0.6826347305389222, 0.7395209580838323, 0.7215568862275449, 0.7245508982035929, 0.7005988023952096, 0.7215568862275449, 0.6916167664670658, 0.6976047904191617, 0.7455089820359282], Macro F1=0.7108
-#pyg split
-
 class GConv(nn.Module):
     def __init__(self, input_dim, hidden_dim, num_layers):
         super(GConv, self).__init__()
